@@ -349,11 +349,15 @@ body {
     flex-shrink: 0;
     background: rgba(204, 183, 167, 0.25);
 }
+.blocks {
+    height: 647px;
+}
 .section_main{
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
+    
 }
 .txt_container{
     margin-left: 20px;
@@ -363,7 +367,9 @@ body {
 }
 .txt_container p {
     margin-bottom: 10px;
+    line-height: 20px;   
 }
+
 .section-txt {
     color: #3D3017;
     font-family: 'Inter';
@@ -375,7 +381,34 @@ body {
 .photo {
     width: 350px;
     height: 420px;
-    margin: 100px 112px 140px -107px;
+    margin: 100px 28px 241px 64px;
 }
+.tsvg{
+    margin: 57px;
+    margin-top: -100px;
+    margin-left: 150px;
+}
+.lsvg{
+    margin-top: -80px;
+   margin-right: -20px;
+}
+.rsvg{
+    margin:100px;
+    margin-top: 12px;
+}
+.meritt::after {
+    position: absolute;
+    content: '';
+    bottom: -1720px;
+    left: 0px;
+    width: 222px;
+    height: 226px;
+    background: url(../img/svg/Frame.svg)0% 100%/contain no-repeat;
+}
+.coff{
+    width: 104px;
+    height: 74px;
+    display: grid;
+    align-items:center ;
 
-
+}
